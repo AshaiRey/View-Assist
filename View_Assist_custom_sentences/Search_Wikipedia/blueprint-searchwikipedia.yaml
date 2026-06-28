@@ -9,7 +9,7 @@ blueprint:
       default: en
       selector:
         language:
-          languages: [ca, de, en, es, pl, pt]
+          languages: [ca, de, en, es, nl, pl, pt]
     command:
       name: Command
       description: The phrase you want to use to trigger searching Wikipedia
@@ -50,6 +50,10 @@ action:
           responses:
             view_title: "Búsqueda en Wikipedia"
             search_error: "Lo siento, no he podido encontrar nada en Wikipedia para eso"
+        nl:
+          responses:
+            view_title: "Wikipedia zoeken"
+            search_error: "Sorry, Ik kon niets vinden hierover op Wikipedia"            
         pl:
           responses:
             view_title: "Wyszukiwanie Wikipedia"
