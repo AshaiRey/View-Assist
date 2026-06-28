@@ -13,7 +13,7 @@ blueprint:
       default: en
       selector:
         language:
-          languages: [ca, de, en, es, pl, pt]
+          languages: [ca, de, en, es, nl, pl, pt]
     command:
       name: Command Text
       description: |
@@ -133,6 +133,11 @@ action:
                 camera_not_found_show: "Kamera '{camera}' nicht gefunden. Zeige konfigurierte Kameras."
                 camera_not_found_error: "Entschuldigung, ich konnte keine Kamera namens '{camera}' finden. Verfügbare Kameras sind: {available}."
                 camera_not_found_short: "Kamera '{camera}' nicht gefunden."
+            nl:
+              responses:
+                camera_not_found_show: "Camera '{camera}' niet gevonden. Geconfigureerde cameras worden getoond."
+                camera_not_found_error: "Sorry, Ik kan de camera genaamd '{camera}' niet vinden. Beschikbare cameras zijn: {available}."
+                camera_not_found_short: "Camera '{camera}' niet gevonden."                
             pl:
               responses:
                 camera_not_found_show: "Kamera '{camera}' nie znaleziona. Wyświetlam skonfigurowane kamery."
