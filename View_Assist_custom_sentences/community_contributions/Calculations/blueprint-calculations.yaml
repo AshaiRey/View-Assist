@@ -9,7 +9,7 @@ blueprint:
       default: en
       selector:
         language:
-          languages: [de, en, pl, pt]
+          languages: [de, en, nl, pl, pt]
     view:
       name: View
       description: The View Assist dashboard view to use for text information display
@@ -56,6 +56,12 @@ action:
             title: "Berechnung"
             expression_label: "Ausdruck"
             answer_label: "Antwort"
+        nl:
+          responses:
+            result: "Het resultaat van {expression} is {answer}."
+            title: "Berekenig"
+            expression_label: "Expressie"
+            answer_label: "Antwoord"            
         pl:
           responses:
             result: "Wynik {expression} to {answer}."
