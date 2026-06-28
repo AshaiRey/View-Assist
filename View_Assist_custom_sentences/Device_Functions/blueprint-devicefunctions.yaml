@@ -165,11 +165,11 @@ action:
             mode_failure_device: "Sorry. {mode} is geen geldige modus voor dit apparaat"
             mode_failure_unrecognized: "Sorry. {mode} is geen geldige modus. Probeer {{ modes }}."
             info_playing: "Dit is {title} van {artist}"
-            view_switch: "Wechsle zur Ansicht {view}"
-            view_invalid: "Entschuldige. {view} ist keine gültige Ansicht."
-            volume_set: "Die Lautstärke wurde auf {level} gesetzt"
-            volume_adjusted: "Die Lautstärke wurde {direction} gestellt"
-            sound_restored: "Der Ton wurde wiederhergestellt"
+            view_switch: "Wisselen naar view {view}"
+            view_invalid: "Excuseer mij. {view} is geen geldige view."
+            volume_set: "Het volume wordt op {level} gezet"
+            volume_adjusted: "Het volume wordt {direction} aangepast"
+            sound_restored: "Het geluid wordt hersteld"
         pl:
           responses:
             repeat: "Powiedziałem {last_said}"
