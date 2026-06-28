@@ -17,6 +17,7 @@ blueprint:
             - en
             - es
             - fr
+            - nl            
             - pt
             - sr
             - sr-Latn
@@ -283,6 +284,17 @@ action:
             named_timer_not_found: "Ce minuteur est introuvable"
             timer_not_found: "Le {timer_info} est introuvable"
             time_left: "Il reste {time_left} sur votre minuteur de {timer_info}"
+        nl:
+          responses:
+            no_active_timers: "Er zijn geen actieve timers."
+            one_active_timer: "Er is één actieve timer:"
+            multiple_active_timers: "Er zijn {count} actieve timers:"
+            final_timer: "en {timer_expiry_speak}"
+            no_display: "Dit device heeft geen scherm om timers op weer te geven"
+            timer_cancel: "Je {timer_info} is verwijderd"
+            named_timer_not_found: "Die timer is niet gevonden"
+            timer_not_found: "De {timer_info} kon niet gevonden worden"
+            time_left: "Er is nog {time_left} over op {timer_info}"            
         pt:
           responses:
             no_active_timers: "Não existem timers ativos."
